@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KTNavigatedCalendar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="iwI-JP-tvC">
+                                <rect key="frame" x="80" y="60" width="215" height="29"/>
+                                <segments>
+                                    <segment title="Day"/>
+                                    <segment title="Week"/>
+                                    <segment title="Month"/>
+                                    <segment title="Year"/>
+                                </segments>
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="scDuration_valueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="D27-5V-1c9"/>
+                                </connections>
+                            </segmentedControl>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sTg-G6-LK6" customClass="KTUINavigatedControl" customModule="KTNavigatedCalendar" customModuleProvider="target">
+                                <rect key="frame" x="-0.5" y="118" width="375" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Lhl-bv-xbN"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start TIme" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prK-EV-I1b">
+                                <rect key="frame" x="147.5" y="218" width="80.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start TimeInterval" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMm-VX-yd3">
+                                <rect key="frame" x="119.5" y="249" width="136.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start DateTime" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MB1-nP-STc">
+                                <rect key="frame" x="130.5" y="280" width="114.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3z-HU-R0b">
+                                <rect key="frame" x="151.5" y="341" width="72" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End TimeInterval" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ti9-cb-xdl">
+                                <rect key="frame" x="124" y="372" width="128" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End DateTime" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpL-FR-24b">
+                                <rect key="frame" x="134.5" y="403" width="106.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iwI-JP-tvC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Cw-9C-EmK"/>
+                            <constraint firstItem="WpL-FR-24b" firstAttribute="top" secondItem="ti9-cb-xdl" secondAttribute="bottom" constant="10" id="4FZ-vH-3KL"/>
+                            <constraint firstItem="ti9-cb-xdl" firstAttribute="top" secondItem="c3z-HU-R0b" secondAttribute="bottom" constant="10" id="6gP-bg-ulO"/>
+                            <constraint firstItem="prK-EV-I1b" firstAttribute="top" secondItem="sTg-G6-LK6" secondAttribute="bottom" constant="40" id="BF0-4K-gg5"/>
+                            <constraint firstItem="sTg-G6-LK6" firstAttribute="top" secondItem="iwI-JP-tvC" secondAttribute="bottom" constant="30" id="Kai-jZ-K3W"/>
+                            <constraint firstItem="sTg-G6-LK6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q3S-XO-mA9"/>
+                            <constraint firstItem="c3z-HU-R0b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RHw-rl-9iy"/>
+                            <constraint firstItem="prK-EV-I1b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sd4-uI-wLG"/>
+                            <constraint firstItem="ti9-cb-xdl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wyr-HZ-kIC"/>
+                            <constraint firstItem="MB1-nP-STc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xgw-Of-me4"/>
+                            <constraint firstItem="iwI-JP-tvC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="Yl9-az-iRL"/>
+                            <constraint firstItem="WpL-FR-24b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dJh-cE-3xH"/>
+                            <constraint firstItem="MB1-nP-STc" firstAttribute="top" secondItem="WMm-VX-yd3" secondAttribute="bottom" constant="10" id="hYX-gw-eEf"/>
+                            <constraint firstItem="c3z-HU-R0b" firstAttribute="top" secondItem="MB1-nP-STc" secondAttribute="bottom" constant="40" id="mfa-EY-BsY"/>
+                            <constraint firstItem="sTg-G6-LK6" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="qZx-k3-YCf"/>
+                            <constraint firstItem="WMm-VX-yd3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qaw-xn-oop"/>
+                            <constraint firstItem="WMm-VX-yd3" firstAttribute="top" secondItem="prK-EV-I1b" secondAttribute="bottom" constant="10" id="zsx-Zu-LoL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblEndDateTime" destination="WpL-FR-24b" id="yBg-4r-DfF"/>
+                        <outlet property="lblEndTimeInterval" destination="ti9-cb-xdl" id="fha-yo-RTc"/>
+                        <outlet property="lblStartDateTime" destination="MB1-nP-STc" id="evL-Hy-HoK"/>
+                        <outlet property="lblStartTimeInterval" destination="WMm-VX-yd3" id="p8s-hx-Yny"/>
+                        <outlet property="scDuration" destination="iwI-JP-tvC" id="k2X-fd-cVf"/>
+                        <outlet property="viewNavigatedCalendar" destination="sTg-G6-LK6" id="MhP-Qx-eBF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66027C0F1EC576AC00FA0049 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66027C0E1EC576AC00FA0049 /* AppDelegate.swift */; };
+		66027C111EC576AC00FA0049 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66027C101EC576AC00FA0049 /* ViewController.swift */; };
+		66027C141EC576AC00FA0049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66027C121EC576AC00FA0049 /* Main.storyboard */; };
+		66027C161EC576AC00FA0049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66027C151EC576AC00FA0049 /* Assets.xcassets */; };
+		66027C191EC576AC00FA0049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66027C171EC576AC00FA0049 /* LaunchScreen.storyboard */; };
+		66027C221EC5773E00FA0049 /* KTUINavigatedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66027C211EC5773E00FA0049 /* KTUINavigatedControl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66027C0B1EC576AC00FA0049 /* KTNavigatedCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTNavigatedCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66027C0E1EC576AC00FA0049 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66027C101EC576AC00FA0049 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66027C131EC576AC00FA0049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66027C151EC576AC00FA0049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66027C181EC576AC00FA0049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66027C1A1EC576AC00FA0049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66027C211EC5773E00FA0049 /* KTUINavigatedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KTUINavigatedControl.swift; path = UIControl/KTUINavigatedControl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66027C081EC576AC00FA0049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66027C021EC576AC00FA0049 = {
+			isa = PBXGroup;
+			children = (
+				66027C0D1EC576AC00FA0049 /* KTNavigatedCalendar */,
+				66027C0C1EC576AC00FA0049 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66027C0C1EC576AC00FA0049 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66027C0B1EC576AC00FA0049 /* KTNavigatedCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66027C0D1EC576AC00FA0049 /* KTNavigatedCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				66027C201EC5770900FA0049 /* UIControl */,
+				66027C0E1EC576AC00FA0049 /* AppDelegate.swift */,
+				66027C101EC576AC00FA0049 /* ViewController.swift */,
+				66027C121EC576AC00FA0049 /* Main.storyboard */,
+				66027C151EC576AC00FA0049 /* Assets.xcassets */,
+				66027C171EC576AC00FA0049 /* LaunchScreen.storyboard */,
+				66027C1A1EC576AC00FA0049 /* Info.plist */,
+			);
+			path = KTNavigatedCalendar;
+			sourceTree = "<group>";
+		};
+		66027C201EC5770900FA0049 /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				66027C211EC5773E00FA0049 /* KTUINavigatedControl.swift */,
+			);
+			name = UIControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66027C0A1EC576AC00FA0049 /* KTNavigatedCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66027C1D1EC576AC00FA0049 /* Build configuration list for PBXNativeTarget "KTNavigatedCalendar" */;
+			buildPhases = (
+				66027C071EC576AC00FA0049 /* Sources */,
+				66027C081EC576AC00FA0049 /* Frameworks */,
+				66027C091EC576AC00FA0049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTNavigatedCalendar;
+			productName = KTNavigatedCalendar;
+			productReference = 66027C0B1EC576AC00FA0049 /* KTNavigatedCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66027C031EC576AC00FA0049 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KTPatel;
+				TargetAttributes = {
+					66027C0A1EC576AC00FA0049 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KP9ST78F2Z;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 66027C061EC576AC00FA0049 /* Build configuration list for PBXProject "KTNavigatedCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66027C021EC576AC00FA0049;
+			productRefGroup = 66027C0C1EC576AC00FA0049 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66027C0A1EC576AC00FA0049 /* KTNavigatedCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66027C091EC576AC00FA0049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66027C191EC576AC00FA0049 /* LaunchScreen.storyboard in Resources */,
+				66027C161EC576AC00FA0049 /* Assets.xcassets in Resources */,
+				66027C141EC576AC00FA0049 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66027C071EC576AC00FA0049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66027C111EC576AC00FA0049 /* ViewController.swift in Sources */,
+				66027C0F1EC576AC00FA0049 /* AppDelegate.swift in Sources */,
+				66027C221EC5773E00FA0049 /* KTUINavigatedControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66027C121EC576AC00FA0049 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66027C131EC576AC00FA0049 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66027C171EC576AC00FA0049 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66027C181EC576AC00FA0049 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66027C1B1EC576AC00FA0049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66027C1C1EC576AC00FA0049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66027C1E1EC576AC00FA0049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KP9ST78F2Z;
+				INFOPLIST_FILE = KTNavigatedCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktpatel.KTNavigatedCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		66027C1F1EC576AC00FA0049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KP9ST78F2Z;
+				INFOPLIST_FILE = KTNavigatedCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktpatel.KTNavigatedCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66027C061EC576AC00FA0049 /* Build configuration list for PBXProject "KTNavigatedCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66027C1B1EC576AC00FA0049 /* Debug */,
+				66027C1C1EC576AC00FA0049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66027C1D1EC576AC00FA0049 /* Build configuration list for PBXNativeTarget "KTNavigatedCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66027C1E1EC576AC00FA0049 /* Debug */,
+				66027C1F1EC576AC00FA0049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66027C031EC576AC00FA0049 /* Project object */;
+}
